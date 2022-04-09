@@ -1,0 +1,196 @@
+/*main*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+body{
+    font: 'Poppins', sans-serif;
+    background-color: #9198a21a;
+}
+
+/*main*/
+main select {
+    padding: 5.1px;
+    width: 1000px;
+}
+
+/*section1*/
+main form #section1, #section2, #section3{
+    display: flex;
+    justify-content: space-between;
+    background-color: #9198a245;
+    padding: 20px;
+    border: 1px solid #9198a2a1;
+    border-radius: 5px;
+    box-shadow: 0px 10px 13px -7px #0000004d, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+main form #section1 .inputs{
+    display: block;
+    width: 10%;
+} 
+
+main form #section1 .inputs input{
+    width: 100%;
+}
+
+/*section2*/
+main form #section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+main form #section2 .containerhorarios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+main form #section2 .containerhorarios div{
+    display: block;
+}
+
+main form #section2 .containerhorarios div label, input{
+    display: block;
+}
+
+main form #section2 .containerhorarios div input{
+    width: 75%;
+}
+
+
+/*section3*/
+main form #section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main form #section3 .container-tabela {
+    width: 70%;
+    
+}
+
+main form #section4 .container-horarios-semana{
+    display: flex;
+    flex-direction: row;
+}
+
+
+main #section3 .container-horarios{
+    display: flex;
+    justify-content: end;
+    margin-inline: 3%;
+    width: 500px;
+}
+
+main .container-carga-horaria-curso{
+    display: block;
+    width: 180px;
+    padding: 5px;
+    margin-right: 8%;
+}
+
+main .inputs{
+    margin-block-start: 10px;
+}
+
+main .container-carga-horaria-curso input{
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+
+
+main .container-carga-horaria-diaria{
+    width: 240px;
+    padding: 5px;
+}
+
+main .container-carga-horaria-diaria div{
+    display: flex;
+}
+
+main .container-carga-horaria-diaria div .inputs{
+    margin-top: 10px;
+}
+
+main .container-carga-horaria-diaria div input{
+    width: 45%;
+    margin-inline: 3px;
+    margin-bottom: 5px;
+    height: 31px;
+}
+
+main #section4{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+main #section4 .container-datas {
+    display: flex;
+    justify-content: space-between;
+}
+
+main #section4 .container-datas div{
+    margin-inline: 15px;
+
+}
+
+main #section4 .container-datas input {
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 320px) {
+    main form #section1 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    main form #section1 .inputs{
+        width: 100%;
+    }
+
+    main form #section1 .inputs label {
+        color: rgb(56, 53, 53);
+    }
+
+    main form #section1 .inputs label input{
+        border-radius: 5px;
+    }
+
+    main form #section2 {
+        flex-direction: column;
+    }
+
+    main form #section2 .container-cursos{
+        width: 100%;
+    }
+
+    main form #section2 select{
+        width: 100%;
+        outline: none;
+    }
+
+    main form #section .container-horarios{
+        margin-block: 25px;
+    }
+
+    main form #section2 .containerhorarios div{
+        display: block;
+    }
+
+    main form #section2 .containerhorarios div input {
+        width: 100%;
+    }
+
+   
+}

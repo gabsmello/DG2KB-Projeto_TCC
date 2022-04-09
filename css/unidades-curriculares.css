@@ -1,0 +1,33 @@
+#section1 .container-turma {
+    width: 12%;
+}
+
+#section1 .container-turma select{
+    width: 100%;
+}
+
+/*curso*/
+#section1 .container-curso {
+    width: 60%;
+}
+
+#section1 .container-curso select{
+    width: 100%;
+}
+
+
+/*botao*/
+#section1 .container-botao{
+    width: 20%;
+}
+
+section.section3 {
+    display: flex;
+    justify-content: center;
+}
+
+.section3 input#btn-liberar{
+    width: 60%;
+
+    
+}

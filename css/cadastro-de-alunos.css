@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+body{
+    font: 'Poppins', sans-serif;
+}
+
+/*main*/
+
+#section1, #section2, #section3{
+    display: flex;
+    justify-content: space-between;
+    background-color: #9198a245;
+    padding: 20px;
+    border: 1px solid #9198a2a1;
+    border-radius: 5px;
+    box-shadow: 0px 10px 13px -7px #0000004d, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+/*geral*/
+#section1 .container-turma, .container-curso, .container-botao {
+    display: flex;
+    flex-direction: column;
+}
+
+/*turma*/
+
+#section1 .container-turma {
+    width: 12%;
+}
+
+#section1 .container-turma select{
+    width: 100%;
+}
+
+/*curso*/
+#section1 .container-curso {
+    width: 60%;
+}
+
+#section1 .container-curso select{
+    width: 100%;
+}
+
+
+/*botao*/
+#section1 .container-botao{
+    width: 20%;
+}
+
+
+#section2 .container-aprovacao{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#section2 .container-aprovacao div{
+    margin-block: 3%;
+    
+}
+
+#section3 .container-aprovacao input{
+    width: 50px;
+}

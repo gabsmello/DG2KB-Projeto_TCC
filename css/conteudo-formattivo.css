@@ -1,0 +1,44 @@
+#section1{
+    align-items: center;
+}
+
+#section1 .container-turma {
+    width: 12%;
+}
+
+#section1 .container-turma select{
+    width: 100%;
+}
+
+/*curso*/
+
+
+#section1 .container-curso{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#section1 .container-titulo-curso {
+    width: 70%;
+    
+}
+
+#section1 .container-titulo-curso input{
+    width: 100%;
+}
+
+/*botao*/
+#section1 .container-botao{
+    width: 20%;
+}
+
+#section2 table{
+    width: 48%;
+}
+
+
+#section2 table {
+    width: 48%;
+}
